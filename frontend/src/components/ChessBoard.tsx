@@ -14,6 +14,7 @@ export const ChessBoard = ({chess,board,socket,setBoard} : {
 }) => {
 
     const [from,setFrom] = useState<null | Square>(null);
+    //@ts-ignore
     const [to,setTo] = useState<null | Square>(null);
 
     return <div className=" text-white-200">
